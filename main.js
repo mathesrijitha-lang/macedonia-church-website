@@ -64,7 +64,7 @@
   function logoHtml() { return '<img src="' + esc(C.logo) + '" alt="" width="44" height="44">'; }
 
   /* ---------- header ---------- */
-  var page = (document.body.getAttribute("data-page")||"home");
+  var page = document.body.getAttribute("data-page");
   var navHtml = C.nav.map(function (n) {
     return '<a href="' + esc(n.href) + '"' + (n.id === page ? ' aria-current="page"' : "") + ">" + L(n.label) + "</a>";
   }).join("");

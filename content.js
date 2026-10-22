@@ -19,13 +19,13 @@ window.CHURCH = {
   tagline: { en: "A place to worship, grow and serve together",
              te: "ఆరాధించడానికి, ఎదగడానికి, కలిసి సేవ చేయడానికి ఒక స్థలం" },
 
-  /* Put your logo file in assets/images/ and make sure the name matches.
+  /* Put your logo file in  and make sure the name matches.
      If the file is missing, a golden cross is shown instead. */
-  logo: "assets/images/logo.png",
+  logo: "logo.png",
 
   /* Optional big photo behind the top of the Home page. Leave "" for none.
-     Example: "assets/images/hero.jpg" */
-  heroImage: "assets/images/hero.jpg",
+     Example: "hero.jpg" */
+  heroImage: "hero.jpg",
 
   /* ---------- LIVE STREAM (the Watch Live button) ---------- */
   liveUrl: "https://youtu.be/ibuSSPxzuUA",
@@ -74,7 +74,7 @@ window.CHURCH = {
   /* ---------- EVENTS ----------
      Add a new event by copying one { ... }, block. Order does not matter:
      the website puts upcoming events first and moves finished ones to "Past Events".
-     "image" is optional, e.g. "assets/images/retreat.jpg" (or leave ""). */
+     "image" is optional, e.g. "retreat.jpg" (or leave ""). */
   events: [
     { title: { en: "Children's Retreat", te: "పిల్లల రిట్రీట్" },
       date: "2026-09-04",
@@ -108,11 +108,11 @@ window.CHURCH = {
       en: "Stay updated with our worship services, prayer meetings, Bible studies, fellowship programs and special church events.",
       te: "మా ఆరాధనలు, ప్రార్థన కూడికలు, బైబిల్ అధ్యయనాలు, సహవాస కార్యక్రమాలు మరియు ప్రత్యేక సంఘ కార్యక్రమాల గురించి తెలుసుకోండి."
     },
-    /* Pictures of the printed year plan. Put the files in assets/images/
+    /* Pictures of the printed year plan. Put the files in 
        with these names (add or remove lines as you like). Missing files are hidden. */
     images: [
-      "assets/images/year-plan-1.jpg",
-      "assets/images/year-plan-2.jpg"
+      "year-plan-1.jpg",
+      "year-plan-2.jpg"
     ],
     /* Month by month list. month = 1 (January) ... 12 (December).
        Add lines inside "items" for each program of that month. */
@@ -135,7 +135,7 @@ window.CHURCH = {
   },
 
   /* ---------- PHOTOS ON HOME PAGE (optional) ----------
-     Add photos like:  { src: "assets/images/photo1.jpg", alt: { en: "Sunday worship", te: "ఆదివారం ఆరాధన" } },
+     Add photos like:  { src: "photo1.jpg", alt: { en: "Sunday worship", te: "ఆదివారం ఆరాధన" } },
      Leave the list empty [] to hide the photo section. */
   gallery: [
   ],
